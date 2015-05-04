@@ -2,16 +2,32 @@
 ---
 body {
   background-color: #F5F5F5;
-  font-family: Courier New, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: #565A5C;
+  font-family: Courier New, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #7DCFB6;
+  text-decoration: none;
+
+  &:hover {
+    color: #EAD98B;
+  }
 }
 
 header {
-  margin-top: 40px;
-  text-align: center
+  margin-top: 25px;
+  text-align: center;
+
+  a {
+    color: #565A5C;
+    font-size: 18px;
+  }
 }
 
 footer {
   bottom: 0;
+  font-size: 11px;
   left: 0;
   position: fixed;
   text-align: center;
@@ -22,6 +38,10 @@ footer {
 
     p {
       margin-bottom: 0;
+    }
+
+    .heart {
+      color: #E3868F;
     }
   }
 
@@ -34,6 +54,8 @@ footer {
   }
 
   .footer-copyright {
+    margin-bottom: 25px;
+
     p {
       margin-bottom: 0;
     }
