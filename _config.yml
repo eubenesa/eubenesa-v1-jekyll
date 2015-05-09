@@ -3,7 +3,7 @@ title: Have Eubene to Vancouver?
 email: eubene.sa@gmail.com
 description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://eubene.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
