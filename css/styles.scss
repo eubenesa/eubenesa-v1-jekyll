@@ -35,15 +35,21 @@ header {
   }
 }
 
-.page-title {
+.page-title, .post-header {
   text-align: center;
 }
 
-.page-content {
+.page-content, .post-content {
   margin-bottom: 35px;
 
   p {
     font-size: 12px;
+  }
+}
+
+.post-content {
+  h6 {
+    margin-bottom: 8px;
   }
 }
 
@@ -93,26 +99,10 @@ footer {
 
 // Larger than desktop
 @media (min-width: 1000px) {
-  .page-content {
+  .page-content, .post-content {
     padding: 0 150px;
-  }
-
-  footer {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
   }
 }
 
 // Larger than Desktop HD
-@media (min-width: 1200px) {
-  .page-content {
-    padding: 0 150px;
-  }
-
-  footer {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-  }
-}
+@media (min-width: 1200px) {}

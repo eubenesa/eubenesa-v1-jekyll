@@ -1,22 +1,20 @@
 ---
-layout: page
+layout: default
 ---
+{% for post in site.posts limit:1 %}
+  <div class="container">
+    <div class="row post-header">
+      <div class="twelve columns">
+        <h5>Latest Thing</h5>
+        <h5>{{ post.title }}</h5>
+        <h6>{{ post.date | date: "%-d %B %Y" }}</h6>
+      </div>
+    </div>
 
-<!-- {% for post in site.posts limit:1 %}
-  {{ post.content }}
-{% endfor %} -->
-
-<!--   <h2>Posts</h2>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">Anyone still using <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> in 2015?</p> -->
+    <div class="row post-content">
+      <div class="twelve columns">
+        {{ post.content }}
+      </div>
+    </div>
+  </div>
+{% endfor %}

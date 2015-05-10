@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-
 ###### 안녕하세요, my name is Eubene.
 
 It is like Eugene but with a b! I am a web developer currently based in Vancouuuver, Beautiful English Colombia, Canaja. I love working with UI/UX designers and being creative with turning design mockups into working code. Code! The web! Woo!

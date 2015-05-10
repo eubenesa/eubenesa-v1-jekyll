@@ -1,0 +1,22 @@
+---
+layout: page
+title: Last 10 Things
+permalink: /things/
+---
+<style>
+  @media (min-width: 400px) {
+    footer {
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+    }
+  }
+</style>
+
+<ol>
+  {% for post in site.posts limit:10 %}
+    <li class="post-link">
+      <span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}</span>
+    </li>
+  {% endfor %}
+</ol>
