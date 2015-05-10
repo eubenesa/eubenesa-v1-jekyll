@@ -40,7 +40,7 @@ header {
 }
 
 .page-content {
-  padding: 0 150px;
+  margin-bottom: 35px;
 
   p {
     font-size: 12px;
@@ -48,11 +48,8 @@ header {
 }
 
 footer {
-  bottom: 0;
   font-size: 11px;
-  position: fixed;
   text-align: center;
-  width: 100%;
 
   .footer-made-with {
     margin-bottom: 20px;
@@ -80,5 +77,42 @@ footer {
     p {
       margin-bottom: 0;
     }
+  }
+}
+
+
+// Media Queries
+// Larger than mobile
+@media (min-width: 400px) {}
+
+// Larger than phablet (also point when grid becomes active)
+@media (min-width: 550px) {}
+
+// Larger than tablet
+@media (min-width: 750px) {}
+
+// Larger than desktop
+@media (min-width: 1000px) {
+  .page-content {
+    padding: 0 150px;
+  }
+
+  footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+}
+
+// Larger than Desktop HD
+@media (min-width: 1200px) {
+  .page-content {
+    padding: 0 150px;
+  }
+
+  footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
   }
 }
