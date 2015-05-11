@@ -8,7 +8,9 @@
 
     <div class="row header-links">
       <div class="twelve columns">
-        <a href="/">Thing 1</a>
+        {% for post in site.posts limit:1 %}
+          <a href="{{ post.url }}">Thing 1</a>
+        {% endfor %}
         <span> | </span>
         <a href="/things">Things 10</a>
         <span> | </span>

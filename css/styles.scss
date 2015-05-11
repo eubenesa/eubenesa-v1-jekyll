@@ -39,7 +39,7 @@ header {
   text-align: center;
 }
 
-.page-content, .post-content {
+.page-content {
   margin-bottom: 35px;
 
   p {
@@ -48,8 +48,19 @@ header {
 }
 
 .post-content {
+  @extend .page-content;
+  margin-bottom: 0;
+
   h6 {
     margin-bottom: 8px;
+  }
+}
+
+.share-twitter {
+  @extend .page-content;
+
+  p {
+    margin-bottom: 0;
   }
 }
 
@@ -99,7 +110,7 @@ footer {
 
 // Larger than desktop
 @media (min-width: 1000px) {
-  .page-content, .post-content {
+  .page-content, .post-content, .share-twitter {
     padding: 0 150px;
   }
 }
