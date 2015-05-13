@@ -61,11 +61,20 @@ header {
 //   text-align: center;
 // }
 
-.share-twitter {
+.share-etc {
   @extend .page-content;
 
   p {
     margin-bottom: 0;
+  }
+
+  .fa {
+    color: #7DCFB6;
+
+    &:hover {
+      color: #EAD98B;
+      cursor: pointer;
+    }
   }
 }
 
@@ -115,7 +124,7 @@ footer {
 
 // Larger than desktop
 @media (min-width: 1000px) {
-  .page-content, .post-content, .share-twitter {
+  .page-content, .post-content, .share-etc {
     padding: 0 150px;
   }
 }
