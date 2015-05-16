@@ -13,8 +13,6 @@
   <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
   <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
 
-  <script src="/static/elevator.js/elevator.min.js"></script>
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
@@ -27,14 +25,5 @@
 
     ga('create', 'UA-62766270-1', 'auto');
     ga('send', 'pageview');
-
-    // Elevator.js
-    window.onload = function() {
-      var elevator = new Elevator({
-        element: document.querySelector('.back-to-top'),
-        mainAudio: '/static/elevator.js/demo/music/elevator-music.mp3',
-        endAudio: '/static/elevator.js/demo/music/ding.mp3'
-      });
-    };
   </script>
 </head>

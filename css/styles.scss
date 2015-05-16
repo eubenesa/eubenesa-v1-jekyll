@@ -35,7 +35,7 @@ header {
   }
 }
 
-.page-title, .post-header {
+.page-title, .post-header, .page-header {
   text-align: center;
 }
 
@@ -61,14 +61,32 @@ header {
 //   text-align: center;
 // }
 
-.share-etc {
-  @extend .page-content;
+.photo {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.photo-credits {
+  text-align: center;
 
   p {
-    margin-bottom: 0;
+    font-size: 1.4em;
+    margin-bottom: 35px;
   }
+}
 
-  .fa {
+.share-etc {
+  margin-bottom: 35px;
+  text-align: center;
+
+  .back-to-top {
     color: #7DCFB6;
 
     &:hover {
@@ -124,7 +142,7 @@ footer {
 
 // Larger than desktop
 @media (min-width: 1000px) {
-  .page-content, .post-content, .share-etc {
+  .page-content, .post-content {
     padding: 0 150px;
   }
 }
