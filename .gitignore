@@ -1,7 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
-/css/Skeleton-2.0.4/index.html
-/static/elevator.js/demo/css
-/static/elevator.js/demo/index.html
-/static/elevator.js/README.md
+css/Skeleton-2.0.4/images
+css/Skeleton-2.0.4/index.html
+static/elevator.js/demo/css
+static/elevator.js/demo/index.html
+static/elevator.js/README.md
