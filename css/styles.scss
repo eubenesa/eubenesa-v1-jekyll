@@ -66,10 +66,6 @@ header {
   }
 }
 
-// .posts-archive {
-//   text-align: center;
-// }
-
 .photo {
   text-align: center;
   margin-bottom: 2rem;
@@ -152,7 +148,7 @@ footer {
 // Larger than desktop
 @media (min-width: 1000px) {
   .page-content, .post-content {
-    padding: 0 110px;
+    padding: 0 200px;
   }
 }
 
