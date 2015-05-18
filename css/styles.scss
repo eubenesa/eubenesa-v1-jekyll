@@ -15,7 +15,6 @@ a {
   }
 }
 
-
 header {
   margin-bottom: 35px;
   margin-top: 25px;
@@ -54,6 +53,16 @@ header {
 
   h6 {
     margin-bottom: 8px;
+  }
+
+  ul {
+    margin-bottom: 5px;
+
+    li {
+      font-size: 12px;
+      margin-bottom: 3px;
+      margin-left: 15px;
+    }
   }
 }
 
@@ -143,7 +152,7 @@ footer {
 // Larger than desktop
 @media (min-width: 1000px) {
   .page-content, .post-content {
-    padding: 0 150px;
+    padding: 0 110px;
   }
 }
 
