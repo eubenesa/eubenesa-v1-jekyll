@@ -55,14 +55,18 @@ header {
     margin-bottom: 8px;
   }
 
-  ul {
-    margin-bottom: 5px;
+  li {
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-left: 15px;
 
-    li {
-      font-size: 12px;
-      margin-bottom: 3px;
-      margin-left: 15px;
+    &:last-of-type {
+      margin-bottom: 0px;
     }
+  }
+
+  .list-description {
+    margin-bottom: 5px;
   }
 }
 
