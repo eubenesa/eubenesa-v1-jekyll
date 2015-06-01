@@ -1,6 +1,7 @@
-_site
-.sass-cache
 .jekyll-metadata
+.sass-cache
+_drafts
+_site
 css/font-awesome-4.3.0/less
 css/font-awesome-4.3.0/scss
 css/Skeleton-2.0.4/images
