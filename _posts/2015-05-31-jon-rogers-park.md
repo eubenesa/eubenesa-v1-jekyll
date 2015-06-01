@@ -5,6 +5,7 @@ date: '2015-05-31'
 ---
 <p class="list-description">Them tunes:</p>
 
+  * [Supermoon, 'Comet Lovejoy'](https://allmoonsaresuper.bandcamp.com/album/comet-lovejoy)
   * [Woolworm - Useless](https://woolworm.bandcamp.com/track/useless)
   * [No Joy - Hollywood Teeth](https://soundcloud.com/mexicansummer/no-joy-hollywood-teeth)
   * [Seoul - Real June](https://soundcloud.com/seoulmtl/real-june)
