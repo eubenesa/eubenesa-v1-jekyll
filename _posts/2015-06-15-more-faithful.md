@@ -2,7 +2,7 @@
 layout: post
 title: More Faithful!
 date: '2015-06-15'
-description: No Joy, Village, Tender Age, Appendixes, Mesa Luna, Avid Walker, nbd label, nbd, Milk, Malcolm Jack, Woolworm, Fountain, Altona
+description: No Joy, Village, Appendixes, Tender Age, Mesa Luna, Avid Walker, nbd label, nbdlabel, nbd, Milk, Malcolm Jack, Woolworm, Fountain, Altona, Bully, Son Lux
 ---
 <p class="list-description">Matchstick tunes:</p>
 
