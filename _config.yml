@@ -1,7 +1,7 @@
 # Site settings
 title: Have Eubene to Vancouver?
 email: eubene.sa@gmail.com
-description: "Eubene Sa is a web developer currently based in Vancouver, BC Canada. He enjoys going to music shows and writes about them. Built using Jekyll and Skeleton."
+description: Eubene Sa is a web developer currently based in Vancouver, BC Canada. He enjoys going to music shows and writes about them. Built using Jekyll and Skeleton.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://eubene.me" # the base hostname & protocol for your site
 
@@ -9,3 +9,5 @@ url: "http://eubene.me" # the base hostname & protocol for your site
 markdown: kramdown
 
 permalink: pretty
+
+exclude: [Guardfile]

@@ -1,0 +1,6 @@
+ruby '2.2.2'
+source 'https://rubygems.org'
+gem 'jekyll', '~> 2.5.0'
+gem 'guard', '~> 2.12.0'
+gem 'guard-jekyll-plus', '~> 2.0.0'
+gem 'guard-livereload', '~> 2.4.0'
