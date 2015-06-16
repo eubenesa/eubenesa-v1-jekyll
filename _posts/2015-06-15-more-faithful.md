@@ -2,11 +2,12 @@
 layout: post
 title: More Faithful!
 date: '2015-06-15'
-description: No Joy, Village, Appendixes, Tender Age, Mesa Luna, Avid Walker, nbd label, nbdlabel, nbd, Milk, Malcolm Jack, Woolworm, Fountain, Altona, Bully, Son Lux
+description: No Joy, Village, Appendixes, Tender Age, Mesa Luna, Avid Walker, nbd label, nbdlabel, nbd, Milk, Malcolm Jack, Woolworm, Fountain, Altona, VIV LGHT, Merival
 ---
 <p class="list-description">Matchstick tunes:</p>
 
   * [Viv Lght - What For?](https://soundcloud.com/vivlght/what-for)
+  * [Merival - Novel](https://www.youtube.com/watch?v=cTUuRMG68YU)
   * [Bully, 'Feels Like'](http://www.npr.org/2015/06/14/413460380/first-listen-bully-feels-like)
   * [Son Lux, 'Bones'](http://www.npr.org/2015/06/14/412907622/first-listen-son-lux-bones)
 
