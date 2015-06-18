@@ -30,6 +30,10 @@ header {
     a {
       color: #565A5C;
       font-size: 18px;
+
+      &:hover {
+        color: #EAD98B;
+      }
     }
   }
 }
