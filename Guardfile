@@ -17,9 +17,8 @@
 
 # require 'guard/jekyll_plus/config'
 ignore /^_site/
-# jekyll_plus_options = {}
-# guard 'jekyll-plus', jekyll_plus_options do
-guard 'jekyll-plus', :serve => true do
+jekyll_plus_options = {serve: true, drafts: true, future: true}
+guard 'jekyll-plus', jekyll_plus_options do
   # watch(Guard::JekyllPlus::Config.new(jekyll_plus_options).watch_regexp)
   watch  /.*/
 end
