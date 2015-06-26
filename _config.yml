@@ -1,7 +1,7 @@
-title: Have Eubene to Vancouver?
-email: eubene.sa@gmail.com
-description: Eubene Sa is a web developer based in Vancouver. He enjoys going to music shows and writes about them. Made with love using Jekyll, Skeleton, HTML5, CSS3, SCSS.
-url: "http://eubene.me"
+title: 'Have Eubene to Vancouver?'
+email: 'eubene.sa@gmail.com'
+description: 'Eubene Sa is a web developer based in Vancouver. He enjoys going to music shows and writes about them. Made with love using Jekyll, Skeleton, HTML5, CSS3, SCSS.'
+url: 'http://eubene.me'
 
 exclude: [Guardfile]
 
@@ -9,6 +9,8 @@ gems: [jekyll-redirect-from]
 
 markdown: kramdown
 
-baseurl: ""
+baseurl: ''
 
+paginate: 10
+paginate_path: '/archives/:num/'
 permalink: pretty
