@@ -18,11 +18,11 @@ GEM
     eventmachine (1.0.7)
     execjs (2.5.2)
     fast-stemmer (1.0.2)
-    ffi (1.9.8)
+    ffi (1.9.9)
     formatador (0.2.5)
-    guard (2.12.6)
+    guard (2.12.7)
       formatador (>= 0.2.4)
-      listen (~> 2.7)
+      listen (>= 2.7, <= 4.0)
       lumberjack (~> 1.0)
       nenv (~> 0.1)
       notiffany (~> 0.0)
@@ -118,4 +118,4 @@ DEPENDENCIES
   sass (~> 3.4.0)
 
 BUNDLED WITH
-   1.10.4
+   1.10.5
