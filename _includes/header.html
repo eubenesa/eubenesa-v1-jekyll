@@ -2,20 +2,26 @@
   <div class="container">
     <div class="row header-title">
       <div class="twelve columns">
-        <a href="/">{{ site.title }}</a>
+        {% for post in site.posts limit:1 %}
+          <a href="{{ post.url }}">{{ site.title }}</a>
+        {% endfor %}
       </div>
     </div>
 
     <div class="row header-links">
-      <div class="twelve columns">
-        <nav>
-          <a href="/">Latest thing</a>
-          <span> | </span>
+      <nav>
+        <div class="four columns">
+          {% for post in site.posts limit:1 %}
+            <a href="{{ post.url }}">Latest thing</a>
+          {% endfor %}
+        </div>
+        <div class="four columns">
           <a href="/archives">All the things</a>
-          <span> | </span>
+        </div>
+        <div class="four columns">
           <a href="/about">Other thing</a>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
   </div>
 </header>
