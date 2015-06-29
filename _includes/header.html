@@ -3,7 +3,7 @@
     <div class="row header-title">
       <div class="twelve columns">
         {% for post in site.posts limit:1 %}
-          <a href="{{ post.url }}">{{ site.title }}</a>
+          <a href="{{ post.url }}" target="_self">{{ site.title }}</a>
         {% endfor %}
       </div>
     </div>
@@ -12,14 +12,14 @@
       <nav>
         <div class="four columns">
           {% for post in site.posts limit:1 %}
-            <a href="{{ post.url }}">Latest thing</a>
+            <a href="{{ post.url }}" target="_self">Latest thing</a>
           {% endfor %}
         </div>
         <div class="four columns">
-          <a href="/archives">All the things</a>
+          <a href="/archives" target="_self">All the things</a>
         </div>
         <div class="four columns">
-          <a href="/about">Other thing</a>
+          <a href="/about" target="_self">Other thing</a>
         </div>
       </nav>
     </div>

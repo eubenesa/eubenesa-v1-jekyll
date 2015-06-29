@@ -20,7 +20,7 @@ title: Archives
   <ol>
     {% for post in paginator.posts %}
       <li>
-        <span><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}</span>
+        <span><a href="{{ post.url }}" target="_self">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}</span>
       </li>
     {% endfor %}
   </ol>
@@ -30,13 +30,13 @@ title: Archives
   <div class="archives-pagination">
     <nav>
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left fa-lg"></i></a>
+        <a href="{{ paginator.previous_page_path }}" target="_self"><i class="fa fa-arrow-circle-left fa-lg"></i></a>
       {% endif %}
 
       <span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
 
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}"><i class="fa fa-arrow-circle-right fa-lg"></i></a>
+        <a href="{{ paginator.next_page_path }}" target="_self"><i class="fa fa-arrow-circle-right fa-lg"></i></a>
       {% endif %}
     </nav>
   </div>
