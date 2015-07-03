@@ -17,8 +17,14 @@ layout: default
 
   <div class="row share-etc">
     <div class="twelve columns">
-      <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=eubenesa"><i class="fa fa-twitter fa-lg"></i></a>
+      {% if page.next %}
+        <a href="{{ page.next.url }}" target="_self"><i class="fa fa-arrow-left fa-lg"></i></a>
+      {% endif %}
+      <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=eubenesa"><i class="fa fa-twitter fa-lg twitter"></i></a>
       <i class="fa fa-arrow-circle-up fa-lg back-to-top"></i>
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" target="_self"><i class="fa fa-arrow-right fa-lg"></i></a>
+      {% endif %}
     </div>
   </div>
 </div>

@@ -99,8 +99,13 @@ header {
   margin-bottom: 35px;
   text-align: center;
 
+  .twitter {
+    margin-left: 60px;
+  }
+
   .back-to-top {
     color: #7DCFB6;
+    margin-right: 60px;
 
     &:hover {
       color: #EAD98B;
