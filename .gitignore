@@ -5,12 +5,6 @@ _site
 
 css/main.scss
 
-css/font-awesome-4.3.0/less
-css/font-awesome-4.3.0/scss
-
-css/Skeleton-2.0.4/images
-css/Skeleton-2.0.4/index.html
-
 css/twemoji-awesome/.gitignore
 css/twemoji-awesome/demo.css
 css/twemoji-awesome/index.html
