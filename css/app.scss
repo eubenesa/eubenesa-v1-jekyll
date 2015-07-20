@@ -2,6 +2,17 @@
 ---
 @import "twemoji-awesome/twemoji-awesome.scss";
 
+.fa-heart {
+  color: #E3868F;
+}
+
+
+@import "about.scss";
+@import "archives.scss";
+@import "photo.scss";
+@import "work.scss";
+
+
 body {
   background-color: #F5F5F5;
   color: #565A5C;
@@ -15,6 +26,11 @@ a {
   &:hover {
     color: #EAD98B;
   }
+}
+
+
+.no-margin-bottom {
+  margin-bottom: 0;
 }
 
 header {
@@ -76,27 +92,6 @@ header {
   }
 }
 
-.photo {
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-
-  img {
-    height: auto;
-    max-width: 100%;
-  }
-}
-
-.photo-credits {
-  text-align: center;
-
-  p {
-    font-size: 1.4em;
-    margin-bottom: 35px;
-  }
-}
-
 .share-etc {
   margin-bottom: 35px;
   text-align: center;
@@ -125,10 +120,6 @@ footer {
 
     p {
       margin-bottom: 0;
-    }
-
-    .footer-heart {
-      color: #E3868F;
     }
   }
 
@@ -162,14 +153,14 @@ footer {
 // Larger than tablet
 @media (min-width: 750px) {
   .header-links {
-    padding: 0 150px;
+    padding: 0 90px;
   }
 }
 
 // Larger than desktop
 @media (min-width: 1000px) {
   .header-links {
-    padding: 0 320px;
+    padding: 0 250px;
   }
 
   .page-content, .post-content {
