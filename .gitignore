@@ -4,13 +4,3 @@ _drafts
 _site
 
 css/main.scss
-
-css/twemoji-awesome/.gitignore
-css/twemoji-awesome/demo.css
-css/twemoji-awesome/index.html
-css/twemoji-awesome/README.md
-css/twemoji-awesome/twemoji-awesome.scss
-
-js/elevator.js/demo/css
-js/elevator.js/demo/index.html
-js/elevator.js/README.md

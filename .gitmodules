@@ -1,0 +1,6 @@
+[submodule "_sass/twemoji-awesome"]
+	path = _sass/twemoji-awesome
+	url = https://github.com/ellekasai/twemoji-awesome.git
+[submodule "js/elevator.js"]
+	path = js/elevator.js
+	url = https://github.com/tholman/elevator.js.git
