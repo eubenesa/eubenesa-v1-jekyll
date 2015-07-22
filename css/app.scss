@@ -23,11 +23,30 @@ a {
   color: #7DCFB6;
   text-decoration: none;
 
+  &.spotify {
+    color: #2EBD59;
+  }
+
+  &.instagram {
+    color: #125688;
+  }
+
+  &.twitter {
+    color: #55ACEE;
+  }
+
+  &.github {
+    color: #333;
+  }
+
+  &.linkedin {
+    color: #0077B5;
+  }
+
   &:hover {
     color: #EAD98B;
   }
 }
-
 
 .no-margin-bottom {
   margin-bottom: 0;
@@ -160,7 +179,7 @@ footer {
 // Larger than desktop
 @media (min-width: 1000px) {
   .header-links {
-    padding: 0 250px;
+    padding: 0 190px;
   }
 
   .page-content, .post-content {
