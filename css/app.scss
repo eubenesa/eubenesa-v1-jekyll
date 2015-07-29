@@ -10,7 +10,6 @@
 @import "about.scss";
 @import "archives.scss";
 @import "photo.scss";
-@import "work.scss";
 
 
 body {
@@ -43,8 +42,13 @@ a {
     color: #0077B5;
   }
 
+  &.tomster {
+    color: #F1694F;
+  }
+
   &:hover {
     color: #EAD98B;
+    cursor: pointer;
   }
 }
 
@@ -120,13 +124,7 @@ header {
   }
 
   .back-to-top {
-    color: #7DCFB6;
     margin-right: 60px;
-
-    &:hover {
-      color: #EAD98B;
-      cursor: pointer;
-    }
   }
 }
 
