@@ -1,0 +1,38 @@
+---
+layout: default
+title: Photos
+permalink: /photos/
+---
+<div class="container">
+  <div class="row page-header">
+    <div class="twelve columns">
+      <h5>{{ page.title }}</h5>
+    </div>
+  </div>
+
+  <div class="row photos owl-carousel owl-theme">
+    <div><img src="http://40.media.tumblr.com/d585b6802c7199b7008b471104224e67/tumblr_nshzfeOt7Z1rw8ajfo1_1280.jpg" alt=""></div>
+    <div><img src="http://41.media.tumblr.com/564dfddfd9ce081b90a70902a7fd2240/tumblr_nsvlpqGX8l1rw8ajfo1_1280.jpg" alt=""></div>
+    <div><img src="http://36.media.tumblr.com/f23f7df3f2ce46f4f17f35a6006819c1/tumblr_noa86vlumJ1rw8ajfo1_1280.jpg" alt=""></div>
+  </div>
+
+  <div class="row photo-credits">
+    <div class="twelve columns">
+      <p>All <i class="fa fa-camera-retro fa-lg"></i>s by the queen <a href="http://laurenjray.com">Lauren Ray</a>!</p>
+    </div>
+  </div>
+</div>
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="{{ "/js/owlcarousel/dist/owl.carousel.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+      autoplay: true,
+      autoplayHoverPause: true,
+      autoplayTimeout: 3000,
+      items: 1,
+      loop: true,
+    });
+  });
+</script>
