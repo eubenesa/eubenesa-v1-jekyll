@@ -3,4 +3,15 @@
 _drafts
 _site
 
-css/main.scss
+js/OwlCarousel2-2.0.0-beta.3/docs_src
+js/OwlCarousel2-2.0.0-beta.3/src
+js/OwlCarousel2-2.0.0-beta.3/test
+js/OwlCarousel2-2.0.0-beta.3/.gitattributes
+js/OwlCarousel2-2.0.0-beta.3/.gitignore
+js/OwlCarousel2-2.0.0-beta.3/.travis.yml
+js/OwlCarousel2-2.0.0-beta.3/_config.json
+js/OwlCarousel2-2.0.0-beta.3/bower.json
+js/OwlCarousel2-2.0.0-beta.3/Gruntfile.js
+js/OwlCarousel2-2.0.0-beta.3/LICENSE
+js/OwlCarousel2-2.0.0-beta.3/package.json
+js/OwlCarousel2-2.0.0-beta.3/README.md
