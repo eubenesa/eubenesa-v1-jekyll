@@ -10,6 +10,7 @@ redirect_from:
 
 ###### The Good Local Things
   * Woolworm + Ramzi + Other Jesus + Cave Girl + Gal Gracen + Fake Tears + Whitney K + Twin River - 6 September 2015 (Sun.) at Victory Square
+  * Teen Daze - 11 September 2015 (Fri.) at Red Cat
   * Teen Daze + Heavenly Beat - 12 September 2015 (Sat.) at Fortune
   * The Younger Lovers + Non La + Genderdog + Human Loser - 13 September 2015 (Sun.) at Black Lab
   * Supermoon + Uptights - 17 September 2015 (Thurs.) at the Fringe
@@ -17,6 +18,7 @@ redirect_from:
 ###### The Good Touring Things
   * King Gizzard & The Lizard Wizard + Mild High Club + Sh-Shakes - 1 September 2015 (Tues.) at the Biltmore
   * Mikal Cronin + The Cairo Gang - 7 September 2015 (Mon.) at the Biltmore
+  * Young Empires + Brave Shores + Seoul - 17 September 2015 (Thurs.) at Fortune
   * Pure Bathing Culture + Wild Ones + Jody Glenham - 19 September 2015 (Sat.) at Fortune
   * Hayden + Chad Vangaalen + Samantha Savage Smith - 19 September 2015 (Sat.) at the Imperial
   * Neon Indian - 20 September 2015 (Sun.) at the Imperial
