@@ -6,7 +6,7 @@ redirect_from:
   - /
 ---
 <p>Hello Vancouver and beyond! It's been a while, eh? Sorries! I've been busy working on <a href="http://www.nbdlabel.com/">nbd label</a> (We went live with the addition of <a href="https://soundcloud.com/plazasmusic">Plazas</a>, and more exciting things are due soon!) and figuring out the other sides of my life. Don't you worry, though. I got you covered for shows this month <strong>with</strong> a playlist!</p>
-<iframe src="https://songdrop.com/embed/eubenesa/september-2015-shows" width="100%" height="332" frameborder="0"></iframe>
+<iframe src="https://songdrop.com/embed/eubenesa/raincouver-has-arrived" width="100%" height="332" frameborder="0"></iframe>
 
 ###### The Good Local Things
   * Woolworm + Ramzi + Other Jesus + Cave Girl + Gal Gracen + Fake Tears + Whitney K + Twin River - 6 September 2015 (Sun.) at Victory Square
