@@ -6,22 +6,28 @@
   <title>{% if page.title %}{{ page.title }} | Have Eubene Around Vancouver?{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}">
 
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} | Have Eubene Around Vancouver?{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://36.media.tumblr.com/f23f7df3f2ce46f4f17f35a6006819c1/tumblr_noa86vlumJ1rw8ajfo1_1280.jpg" />
-  <meta property="og:url" content="{% if page.url %}http://eubene.me{{ page.url }}{% else %}http://eubene.me/{% endif %}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | Have Eubene Around Vancouver?{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://36.media.tumblr.com/f23f7df3f2ce46f4f17f35a6006819c1/tumblr_noa86vlumJ1rw8ajfo1_1280.jpg">
+  <meta property="og:url" content="{% if page.url %}http://eubene.me{{ page.url }}{% else %}http://eubene.me/{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}">
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/normalize.css">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@EubeneSa">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | Have Eubene Around Vancouver?{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}">
+  <meta name="twitter:image" content="http://36.media.tumblr.com/f23f7df3f2ce46f4f17f35a6006819c1/tumblr_noa86vlumJ1rw8ajfo1_1280.jpg">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic" type="text/css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "/js/OwlCarousel2-2.0.0-beta.3/dist/assets/owl.carousel.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/js/OwlCarousel2-2.0.0-beta.3/dist/assets/owl.theme.default.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
 
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-icon-57x57.png">
