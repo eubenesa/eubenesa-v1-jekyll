@@ -6,14 +6,14 @@ permalink: /photos/
 <div class="container">
   <div class="row page-header">
     <div class="twelve columns">
-      <h5>{{ page.title }}</h5>
+      <h2>{{ page.title }}</h2>
     </div>
   </div>
 
   <div class="row photos owl-carousel owl-theme">
-    <div><img src="http://41.media.tumblr.com/564dfddfd9ce081b90a70902a7fd2240/tumblr_nsvlpqGX8l1rw8ajfo1_1280.jpg" alt=""></div>
-    <div><img src="http://40.media.tumblr.com/d585b6802c7199b7008b471104224e67/tumblr_nshzfeOt7Z1rw8ajfo1_1280.jpg" alt=""></div>
-    <div><img src="http://36.media.tumblr.com/f23f7df3f2ce46f4f17f35a6006819c1/tumblr_noa86vlumJ1rw8ajfo1_1280.jpg" alt=""></div>
+    <div><img src="http://41.media.tumblr.com/564dfddfd9ce081b90a70902a7fd2240/tumblr_nsvlpqGX8l1rw8ajfo1_1280.jpg" alt="Eubene Sa"></div>
+    <div><img src="http://40.media.tumblr.com/d585b6802c7199b7008b471104224e67/tumblr_nshzfeOt7Z1rw8ajfo1_1280.jpg" alt="Eubene Sa"></div>
+    <div><img src="http://36.media.tumblr.com/f23f7df3f2ce46f4f17f35a6006819c1/tumblr_noa86vlumJ1rw8ajfo1_1280.jpg" alt="Eubene Sa"></div>
   </div>
 
   <div class="row photo-credits">
@@ -24,15 +24,5 @@ permalink: /photos/
 </div>
 
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="{{ "/js/OwlCarousel2-2.0.0-beta.3/dist/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
-<script>
-  $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
-      autoplay: true,
-      autoplayHoverPause: true,
-      autoplayTimeout: 3000,
-      items: 1,
-      loop: true,
-    });
-  });
-</script>
+<script src="{{ "/js/OwlCarousel2/dist/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/photos.js" | prepend: site.baseurl }}"></script>

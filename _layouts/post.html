@@ -1,42 +1,26 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div class="row post-header">
-    <div class="twelve columns">
-      <h5>{{ page.title }}</h5>
-      <h6>{{ page.date | date: "%-d %B %Y" }}</h6>
-    </div>
+<div class="row post-content">
+  <div class="twelve columns">
+    <h2>{{ page.title }} - {{ page.date | date: "%-d %B %Y" }}</h2>
+    {{ content }}
   </div>
+</div>
 
-  <div class="row post-content">
-    <div class="twelve columns">
-      {{ content }}
-    </div>
-  </div>
-
-  <div class="row share-etc">
-    <div class="twelve columns">
-      {% if page.next %}
-        <a href="{{ page.next.url }}" target="_self"><i class="fa fa-arrow-left fa-lg"></i></a>
-      {% endif %}
-      <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"><i class="fa fa-facebook fa-lg facebook"></i></a>
-      <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=eubenesa"><i class="fa fa-twitter fa-lg"></i></a>
-      <a><i class="fa fa-arrow-circle-up fa-lg back-to-top"></i></a>
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" target="_self"><i class="fa fa-arrow-right fa-lg"></i></a>
-      {% endif %}
-    </div>
+<div class="row share-etc">
+  <div class="twelve columns">
+    {% if page.next %}
+      <a href="{{ page.next.url }}" target="_self"><i class="fa fa-arrow-left fa-lg"></i></a>
+    {% endif %}
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"><i class="fa fa-facebook fa-lg facebook"></i></a>
+    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=eubenesa"><i class="fa fa-twitter fa-lg"></i></a>
+    <a><i class="fa fa-arrow-circle-up fa-lg back-to-top"></i></a>
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" target="_self"><i class="fa fa-arrow-right fa-lg"></i></a>
+    {% endif %}
   </div>
 </div>
 
 <script src="/js/elevator.js/elevator.min.js"></script>
-<script>
-  window.onload = function() {
-    var elevator = new Elevator({
-      element: document.querySelector('.back-to-top'),
-      mainAudio: '/js/elevator.js/demo/music/elevator.mp3',
-      endAudio: '/js/elevator.js/demo/music/ding.mp3'
-    });
-  }
-</script>
+<script src="{{ "/js/index-post.js" | prepend: site.baseurl }}"></script>

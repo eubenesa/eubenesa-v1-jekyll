@@ -1,30 +1,24 @@
 <header>
-  <div class="container">
-    <div class="row header-title">
-      <div class="twelve columns">
-        {% for post in site.posts limit:1 %}
-          <a href="{{ post.url }}" target="_self">{{ site.title }}</a>
-        {% endfor %}
-      </div>
+  <div class="row header-title">
+    <div class="twelve columns">
+      <h1><a href="{{ site.posts.first.url }}" target="_self">{{ site.title }}</a></h1>
     </div>
+  </div>
 
-    <div class="row header-links">
-      <nav>
-        <div class="three columns">
-          {% for post in site.posts limit:1 %}
-            <a href="{{ post.url }}" target="_self">Latest thing</a>
-          {% endfor %}
-        </div>
-        <div class="three columns">
-          <a href="/archives" target="_self">All the things</a>
-        </div>
-        <div class="three columns">
-          <a href="/about" target="_self">Other thing</a>
-        </div>
-        <div class="three columns">
-          <a href="/work" target="_self">Another thing</a>
-        </div>
-      </nav>
-    </div>
+  <div class="row header-links">
+    <nav>
+      <div class="three columns">
+        <a href="{{ site.posts.first.url }}" target="_self">Latest thing</a>
+      </div>
+      <div class="three columns">
+        <a href="/archives" target="_self">All the things</a>
+      </div>
+      <div class="three columns">
+        <a href="/about" target="_self">Other thing</a>
+      </div>
+      <div class="three columns">
+        <a href="/work" target="_self">Another thing</a>
+      </div>
+    </nav>
   </div>
 </header>

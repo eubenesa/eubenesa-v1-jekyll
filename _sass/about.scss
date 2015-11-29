@@ -1,7 +1,11 @@
 .about-hoping {
-  margin-bottom: 35px;
+  margin-bottom: $margin-md;
 }
 
-.about-star {
-  color: #EAD98B;
+.about-credits {
+  margin-bottom: 0;
+
+  .about-star {
+    color: $violet;
+  }
 }

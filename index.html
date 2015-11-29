@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign post = site.posts.first %}
+
+<div class="row post-content">
+  <div class="twelve columns">
+    <h2>{{ post.title }} - {{ post.date | date: "%-d %B %Y" }}</h2>
+    {{ post.content }}
+  </div>
+</div>
+
+<div class="row share-etc">
+  <div class="twelve columns">
+    {% if post.next %}
+      <a href="{{ post.next.url }}" target="_self"><i class="fa fa-arrow-left fa-lg"></i></a>
+    {% endif %}
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}"><i class="fa fa-facebook fa-lg facebook"></i></a>
+    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}&text={{ post.title }}&via=eubenesa"><i class="fa fa-twitter fa-lg"></i></a>
+    <a><i class="fa fa-arrow-circle-up fa-lg back-to-top"></i></a>
+    {% if post.previous %}
+      <a href="{{ post.previous.url }}" target="_self"><i class="fa fa-arrow-right fa-lg"></i></a>
+    {% endif %}
+  </div>
+</div>
+
+<script src="/js/elevator.js/elevator.min.js"></script>
+<script src="{{ "/js/index-post.js" | prepend: site.baseurl }}"></script>

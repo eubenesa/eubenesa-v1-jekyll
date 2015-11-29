@@ -3,9 +3,9 @@ email: 'eubene.sa@gmail.com'
 description: 'Eubene Sa is a web developer based in Vancouver. He enjoys going to music shows and writes about them. Made with love using Jekyll, HTML5, CSS3, Sass, Skeleton.'
 url: 'http://eubene.me'
 
-exclude: ['Guardfile']
+exclude: ['Guardfile', 'js/OwlCarousel2/docs_src/templates/pages/docs/dev-buildin-plugins.hbs']
 
-gems: ['jekyll-redirect-from']
+gems: ['jekyll-paginate']
 
 markdown: kramdown
 

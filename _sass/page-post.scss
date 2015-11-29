@@ -1,0 +1,43 @@
+.page-content,
+.post-content {
+  margin-bottom: $margin-xlg;
+
+  // Larger than desktop
+  @media (min-width: 1000px) {
+    padding: 0 190px;
+  }
+}
+
+.post-content {
+  iframe {
+    margin-bottom: $margin-md;
+  }
+
+  ul {
+    margin-bottom: $margin-md;
+
+    li {
+      &:before {
+        content: "\f028\00a0\00a0";
+        font-family: "FontAwesome";
+      }
+    }
+  }
+
+  .list-description {
+    margin-bottom: 5px;
+  }
+}
+
+.share-etc {
+  margin-bottom: $margin-xlg;
+  text-align: center;
+
+  .facebook {
+    margin-left: 60px;
+  }
+
+  .back-to-top {
+    margin-right: 60px;
+  }
+}

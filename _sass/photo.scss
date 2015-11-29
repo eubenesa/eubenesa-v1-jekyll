@@ -1,12 +1,12 @@
 .photos {
-  margin-bottom: 2rem;
+  margin-bottom: $margin-md;
 }
 
 .photo-credits {
-  text-align: center;
+  margin-bottom: $margin-xlg;
 
   p {
-    font-size: 1.4em;
-    margin-bottom: 35px;
+    font-size: 1.6rem;
+    text-align: center;
   }
 }

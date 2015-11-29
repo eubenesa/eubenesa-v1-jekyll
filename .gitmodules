@@ -4,3 +4,6 @@
 [submodule "js/elevator.js"]
 	path = js/elevator.js
 	url = https://github.com/tholman/elevator.js.git
+[submodule "js/OwlCarousel2"]
+	path = js/OwlCarousel2
+	url = https://github.com/smashingboxes/OwlCarousel2.git

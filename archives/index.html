@@ -2,24 +2,16 @@
 layout: page
 title: Archives
 ---
-<style type="text/css" media="screen">
-  @media (min-width: 550px) {
-    footer {
-      bottom: 0;
-      position: fixed;
-      width: 100%;
-    }
-  }
-</style>
+<link rel="stylesheet" href="{{ "/css/footer-archives.css" | prepend: site.baseurl }}">
 
 <div>
-  <ol>
+  <ul>
     {% for post in paginator.posts %}
       <li>
         <span><a href="{{ post.url }}" target="_self">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}</span>
       </li>
     {% endfor %}
-  </ol>
+  </ul>
 </div>
 
 {% if paginator.total_pages > 1 %}
