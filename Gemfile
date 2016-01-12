@@ -1,4 +1,4 @@
-ruby '2.2.3'
+ruby '2.3.0'
 source 'https://rubygems.org'
 
 gem 'guard', '~> 2.13.0'
@@ -10,5 +10,5 @@ gem 'kramdown', '~> 1.9.0'
 gem 'sass', '~> 3.4.0'
 
 group :jekyll_plugins do
-  gem 'jekyll-compose', '~> 0.3.0'
+  gem 'jekyll-compose', '~> 0.4.0'
 end

@@ -1,7 +1,7 @@
 title: 'Have Eubene to Vancouver?'
 email: 'eubene.sa@gmail.com'
 description: 'Eubene Sa is a web developer based in Vancouver. He enjoys going to music shows and writes about them. Made with love using Jekyll, HTML5, CSS3, Sass, Skeleton.'
-url: 'http://eubene.me'
+url: 'http://eubenesa.com'
 
 exclude: ['Guardfile', 'js/OwlCarousel2/docs_src/templates/pages/docs/dev-buildin-plugins.hbs']
 
