@@ -18,7 +18,15 @@
 
   <div class="row footer-copyright">
     <div class="twelve columns">
-      <p>&copy; 2015 Eubene Sa. There is no sponsored content here. OK Bye.</p>
+      <p id="copyright-text"></p>
     </div>
   </div>
 </footer>
+
+<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#copyright-text').html('&copy; 2015-' + moment().format('YYYY') + ' Eubene Sa. There is no sponsored content here. OK Bye.');
+  });
+</script>
